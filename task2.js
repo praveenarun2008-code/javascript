@@ -8,7 +8,7 @@ alert(" you are eligible to vote.");
 }
 
 if(confirm("Do you want to check again")){
- alert("location page relode");
+    location.reload()
 }
 else{
  alert("goodbye");
